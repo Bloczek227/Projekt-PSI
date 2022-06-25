@@ -1,0 +1,13 @@
+Wybrałem zbiór danych z meczów League of Legends podzielony na dane z 10 i 15 minuty gry. Postawiłem sobie 3 zadania:
+
+1. Przewidzieć różnicę w zdobytym złocie przez obie drużyny w 15 minucie na podstawie danych z 10 minuty (regresja)
+Najlepiej zadziałał Elastic Net osiągając r2 równe 0.7679
+
+2. Przewidzieć zwycięzcę meczu na podstawie danych z 10 minuty (klasyfikacja)
+Najlepiej zadziałała regresja logistyczna osiągając accuracy równe 0.7532
+
+3. Przewidzieć zwycięzcę meczu na podstawie danych z 15 minuty (klasyfikacja)
+Najlepiej znów zadziałała regresja logistyczna osiągając accuracy równe 0.8075
+
+
+Ze współczynników w regresji logistycznej można wywnioskować, że największe znaczenie dla predykcji zwycięzcy miała liczba złota zgromadzona przez obie drużyny oraz nieco mniejsze suma poziomów graczy obu drużyn. Pozostałe aspekty miały wyraźnie mniejszy wpływ.
