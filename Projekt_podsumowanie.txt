@@ -11,6 +11,6 @@ Najlepiej znów zadziałała regresja logistyczna osiągając accuracy równe 0.
 
 
 Ze współczynników w regresji logistycznej można wywnioskować, że:
-Największe znaczenie dla predykcji zwycięzcy miała liczba złota zgromadzona przez obie drużyny
+-Największe znaczenie dla predykcji zwycięzcy miała liczba złota zgromadzona przez obie drużyny
 -Nieco mniejszy wpływ miała suma poziomów graczy obu drużyn
 -Pozostałe aspekty miały wyraźnie mniejszy wpływ.
